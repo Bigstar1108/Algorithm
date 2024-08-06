@@ -10,9 +10,9 @@
 #  var line = stdin.readLineSync()!;
 #
 #  var totalDiceCount = int.parse(line);
-#	 var totalVolume = pow(((totalDiceCount + 1) * totalDiceCount) ~/ 2, 2);
+#  var totalVolume = pow(((totalDiceCount + 1) * totalDiceCount) ~/ 2, 2);
 #
-#	 print(totalVolume % 1000000007);
+#  print(totalVolume % 1000000007);
 # }
 
 # -*- coding: utf-8 -*-
