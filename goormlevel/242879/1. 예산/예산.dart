@@ -21,6 +21,9 @@ void main() {
 		var amount = int.parse(line.split(' ')[1]);
 		
 		budget -= price * amount;
+		if (budget < 0) {
+		  break;
+		}
 	}
 	
 	if (budget < 0) {
